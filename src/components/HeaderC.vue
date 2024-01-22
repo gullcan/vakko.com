@@ -1,4 +1,3 @@
-
 <script setup lang="ts">
 
 
@@ -7,11 +6,9 @@ defineProps<{
 }>()
 </script>
 
+<style scoped></style>
 
 <template>
-
-
-
   <header class="" id="site-header">
 
     <div class="header se-item se-ready" data-se-anim="header">
@@ -2460,4 +2457,5 @@ defineProps<{
 
 </header></template>
 
-<style scoped></style>
+
+

@@ -1,5 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import HomeView from '../views/HomeView.vue';
+import AboutView from '../views/AboutView.vue';
+import LoginView from '../views/LoginView.vue';
+import BasketView from '../views/BasketView.vue';
+
+
 
 
 
@@ -20,10 +25,16 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue')
     },
     {
-      path: '/SEPET',
-      name: 'ShoppingCart',
-      component: () => import('../views/ShoppingCartView.vue')
-    }
+      path: '/Login/',
+      name: 'login',
+      component: () => import('../views/LoginView.vue')
+    },
+    {
+      path: '/Basket/',
+      name: 'basket',
+      component: () => import('../views/BasketView.vue')
+    },
+
   ]
 })
 

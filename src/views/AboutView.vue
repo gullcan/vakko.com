@@ -1,11 +1,8 @@
-
 <template>
-   <template>
- <div class="about">
-    <h1>This is an about page</h1>
-    <router-link to="/shopping-cart">Go to Shopping Cart</router-link>
- </div>
-</template>
+   <div class="about">
+     <h1>This is an about page</h1>
+   </div>
+ </template>
 
    <div class="about">
       <h1>{{ TRANSLATIONS.en.about.title }}</h1>
